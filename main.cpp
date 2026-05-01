@@ -13,11 +13,12 @@ public:
         {
                 subject = s;
                 topic = t;
-                deadline = d;
+                deadline = d; 
                 priority = p;
                 status = st;
         }
 
+        
         string toFile()
         {
                 return subject + "|" + topic + "|" + deadline + "|" + priority + "|" + status;
