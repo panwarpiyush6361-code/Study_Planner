@@ -18,7 +18,6 @@ public:
                 status = st;
         }
 
-        
         string toFile()
         {
                 return subject + "|" + topic + "|" + deadline + "|" + priority + "|" + status;
